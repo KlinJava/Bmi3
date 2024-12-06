@@ -11,5 +11,7 @@ fun main() {
     var name = "Hank"
     println(name.get(1))
     name = "Jack"
+    val c = 'A'
+    println(c)
 }
 
