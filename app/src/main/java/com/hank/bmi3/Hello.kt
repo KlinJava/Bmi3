@@ -13,11 +13,17 @@ fun main() {
     println("${hank.name} ${hank.bmi()}")
     p.check()
     p.hello()
+    println(p.year)
+    p.year = "  Tree"
+    println(p.year)
+    p.water = 60
+    println(p.water)
     //BMI
     val w = 65.5f
     val h = 1.7f
     val bmi = w / (h * h)
     println("BMI:$bmi")
+
 
 }
 
